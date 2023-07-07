@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contayner{
+    background-color:#39445A ;
+    width: 100%;
+    height: 100vh;
+}
+.novbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+   
+    background-color: #39445A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.novbar h2{
+    font-size: 100px;
+     text-transform: uppercase;
+}
+.main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly ;
+    
+}
+ .card{
+    width: 17%;
+    height: 500px;
+
+padding: 5px;
+background-color: #121213;
+border-radius: 10px;
+}
+.card img{
+
+    width: 99%;
+    height: 450px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.card h3{
+    color: white;
+}
+.card:hover{
+background-color: white;
+
+}
+.TEXT{
+text-align: center;
+    color: white;
+      margin-top: 100px
+}
+.main2{
+    background-color: #39445A;
+
+}
+.card:hover h3{
+    color: black
+}
+.novbar2{
+    width: 100%;
+    height: 100px;
+     display: flex;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     border: 1px solid black;
+   background-color: #39445A;
+    justify-content: space-around;
+   
+}
+.novbar2 h3 {
+   color: white;
+    margin-top: 20px;
+    justify-content: space-around;
+     text-align: center;
+      
+
+}
